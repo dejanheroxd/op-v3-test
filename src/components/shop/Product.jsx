@@ -7,8 +7,9 @@ function Product({ data, onProductClick }) {
     useContext(ShopContext);
   const { id, productName, price, productImage } = data;
   const cartItemAmount = cartItems[id];
+  getRarity(price);
   const rarity = getRarity(price);
-  const colorRarity = getRarityShadow(rarity);
+  const rarityColor = getRarityShadow(rarity);
 
   return (
     <div className="flex flex-col items-center text-center">
@@ -18,7 +19,7 @@ function Product({ data, onProductClick }) {
         src={productImage}
         alt=""
         style={{
-          boxShadow: isHovered ? `0px 0px 20px 3px #${colorRarity}` : "none",
+          boxShadow: isHovered ? `0px 0px 20px 3px #${rarityColor}` : "none",
           border: `2px solid black`,
         }}
         onMouseEnter={() => setIsHovered(true)}
@@ -27,7 +28,7 @@ function Product({ data, onProductClick }) {
       <div>
         <p className="font-bold">{productName}</p>
         <div className="flex gap-x-1">
-          <p style={{ color: `#${colorRarity} ` }}>{rarity}</p>
+          <p style={{ color: `#${rarityColor} ` }}>{rarity}</p>
           <p>${price}</p>
         </div>
         <button

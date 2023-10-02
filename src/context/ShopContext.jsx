@@ -88,7 +88,7 @@ function ShopContextProvider(props) {
     } else if (rarity === "Epic") {
       rarityShadow = "7736d1"; // 50% transparency
     } else if (rarity === "Legendary") {
-      rarityShadow = "c2c213"; // 50% transparency
+      rarityShadow = "f5cd05"; // 50% transparency
     }
     return rarityShadow;
   }

@@ -7,8 +7,6 @@ import ShopPopUpProduct from "./ShopPopUpProduct";
 function Shop() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  console.log(selectedProduct);
-
   function handleProductClick(product) {
     setSelectedProduct(product);
   }

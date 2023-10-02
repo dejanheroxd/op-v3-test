@@ -67,7 +67,7 @@ export const PRODUCTS = [
     price: 3800,
     productImage: product6,
     description:
-      "Roronoa Zoro ist der Schwertkämpfer, das erste Mitglied und der Vizekapitän der Strohhutpiraten. Er verwendet den Santoryu-Stil (Drei-Schwert-Stil) des Schwertkampfes und strebt danach, der größte Schwertkämpfer der Welt zu werden. Auf ihn ist ein Kopfgeld von 1.111.000.000 Beeren ausgesetzt und er ist einer der elf Supernova-Neulinge der 'Gefährlichsten Generation' der Piraten.",
+      "Roronoa Zoro ist ein Schwertkämpfer und das erste Mitglied und der Vizekapitän der Strohhutpiraten. Er verwendet den Santoryu-Stil (Drei-Schwert-Stil) des Schwertkampfes und strebt danach, der größte Schwertkämpfer der Welt zu werden. Auf ihn ist ein Kopfgeld von 1.111.000.000 Berry ausgesetzt und er ist einer der elf Supernova-Neulinge der 'Gefährlichsten Generation' der Piraten.",
   },
   {
     id: 7,
