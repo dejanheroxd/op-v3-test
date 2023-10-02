@@ -14,6 +14,15 @@ function getCartAmount() {
 
 function ShopContextProvider(props) {
   const [cartItems, setCartItems] = useState(getCartAmount());
+  const [popUpActive, setPopUpActive] = useState(false);
+
+  function openPopUp() {
+    setPopUpActive(true);
+  }
+
+  function closePopUp() {
+    setPopUpActive(false);
+  }
 
   function getTotalCartAmount() {
     let totalAmount = 0;
@@ -50,18 +59,35 @@ function ShopContextProvider(props) {
     setCartItems((prev) => ({ ...prev, [itemId]: amount }));
   }
 
-  function getRarityShadow(price) {
-    let rarityShadow = "";
+  function getRarity(price) {
+    let rarity = "";
 
     if (price >= 1000 && price < 2000) {
-      rarityShadow = "8b8c84";
+      rarity = "Common";
     } else if (price >= 2000 && price < 3000) {
-      rarityShadow = "378c30"; // 50% transparency
+      rarity = "Uncommon";
     } else if (price >= 3000 && price < 4000) {
-      rarityShadow = "2087d6"; // 50% transparency
+      rarity = "Rare";
     } else if (price >= 4000 && price < 5000) {
-      rarityShadow = "7736d1"; // 50% transparency
+      rarity = "Epic";
     } else if (price >= 5000) {
+      rarity = "Legendary";
+    }
+    return rarity;
+  }
+
+  function getRarityShadow(rarity) {
+    let rarityShadow = "";
+
+    if (rarity === "Common") {
+      rarityShadow = "8b8c84";
+    } else if (rarity === "Uncommon") {
+      rarityShadow = "378c30"; // 50% transparency
+    } else if (rarity === "Rare") {
+      rarityShadow = "2087d6"; // 50% transparency
+    } else if (rarity === "Epic") {
+      rarityShadow = "7736d1"; // 50% transparency
+    } else if (rarity === "Legendary") {
       rarityShadow = "c2c213"; // 50% transparency
     }
     return rarityShadow;
@@ -75,6 +101,10 @@ function ShopContextProvider(props) {
     getTotalCartAmount,
     getRarityShadow,
     getItemsAmountInCart,
+    getRarity,
+    openPopUp,
+    closePopUp,
+    popUpActive,
   };
 
   return (

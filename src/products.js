@@ -75,7 +75,7 @@ export const PRODUCTS = [
     price: 5300,
     productImage: product7,
     description:
-      "Shanks, mit seinem feuerroten Haar, ist eine legendäre Figur. Seine bloße Anwesenheit kann Konflikte beenden, und sein Haki ist berüchtigt. Er ist ein meisterhafter Schwertkämpfer und einer der mächtigsten Piraten der Welt, der für sein ruhiges Auftreten und seine immense Stärke bekannt ist",
+      "Shanks, mit seinem feuerroten Haar, ist eine legendäre Figur. Seine bloße Anwesenheit kann Konflikte beenden, und sein Haki ist berüchtigt. Er ist ein meisterhafter Schwertkämpfer und einer der mächtigsten Piraten der Welt, der für sein ruhiges Auftreten und seine immense Stärke bekannt ist.",
   },
   {
     id: 8,
@@ -99,7 +99,7 @@ export const PRODUCTS = [
     price: 3800,
     productImage: product10,
     description:
-      "Doflamingo, mit vollem Namen Donquixote Doflamingo, war ein gefürchteter Pirat und ein Meister der Teufelsfrucht (Ito Ito no Mi), mit der er Fäden kontrollieren konnte. Seine manipulative Natur und geheimnisvolle Vergangenheit machten ihn zu einem faszinierenden Antagonisten, der sowohl die Strohhut-Piraten als auch die Marine herausforderte.Bis er gegen Luffy verlor und jetzt hinter gittern sitzt",
+      "Doflamingo, mit vollem Namen Donquixote Doflamingo, war ein gefürchteter Pirat und ein Meister der Teufelsfrucht (Ito Ito no Mi), mit der er Fäden kontrollieren konnte. Seine manipulative Natur und geheimnisvolle Vergangenheit machten ihn zu einem faszinierenden Antagonisten, der sowohl die Strohhut-Piraten als auch die Marine herausforderte.Bis er gegen Luffy verlor und jetzt hinter gittern sitzt.",
   },
   {
     id: 11,
@@ -147,7 +147,7 @@ export const PRODUCTS = [
     price: 3000,
     productImage: product16,
     description:
-      "Rob Lucci ist ein ehemaliger Agent der CP9 und er idt gefürchtet für seine Teufelsfrucht (Neko Neko no Mi, Modell: Leopard), die ihm übermenschliche Kräfte verleiht. Seine kalte und unnachgiebige Persönlichkeit macht ihn zu einem ernstzunehmenden Gegner die Luffy es Luffy schwer gemacht hat im kampf von Enies Lobby .",
+      "Rob Lucci ist ein ehemaliger Agent der CP9 und er idt gefürchtet für seine Teufelsfrucht (Neko Neko no Mi, Modell: Leopard), die ihm übermenschliche Kräfte verleiht. Seine kalte und unnachgiebige Persönlichkeit macht ihn zu einem ernstzunehmenden Gegner die Luffy es Luffy schwer gemacht hat im kampf von Enies Lobby.",
   },
   {
     id: 17,

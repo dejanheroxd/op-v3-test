@@ -20,20 +20,24 @@ function Cart() {
           }
         })}
       </div>
-      <div className="mt-5 grid w-80 grid-cols-3 gap-y-3">
-        <p className="col-span-3">Total Cost ${totalCartAmount}</p>
-        <div className="col-span-3 flex gap-x-4">
-          <button
-            onClick={() => navigate("/")}
-            className="h-9 w-44 rounded-lg border-none bg-black text-white"
-          >
-            Continue Shopping
-          </button>
-          <button className="h-9 w-44 rounded-lg border-none  bg-black text-white">
-            Checkout
-          </button>
+      {totalCartAmount > 0 ? (
+        <div className="mt-5 grid w-80 grid-cols-3 gap-y-3">
+          <p className="col-span-3">Total Cost ${totalCartAmount}</p>
+          <div className="col-span-3 flex gap-x-4">
+            <button
+              onClick={() => navigate("/")}
+              className="h-9 w-44 rounded-lg border-none bg-black text-white"
+            >
+              Continue Shopping
+            </button>
+            <button className="h-9 w-44 rounded-lg border-none  bg-black text-white">
+              Checkout
+            </button>
+          </div>
         </div>
-      </div>
+      ) : (
+        <p>No items</p>
+      )}
     </div>
   );
 }
