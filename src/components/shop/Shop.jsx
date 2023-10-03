@@ -10,9 +10,12 @@ function Shop() {
   const [sortBy, setSortBy] = useState(null);
 
   function handleClickSortBy(sortValue) {
-    setSortBy(sortValue);
+    if (sortBy === sortValue) {
+      setSortBy(null);
+    } else {
+      setSortBy(sortValue);
+    }
   }
-  console.log(sortBy);
 
   function handleProductClick(product) {
     setSelectedProduct(product);
