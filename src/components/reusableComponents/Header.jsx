@@ -1,6 +1,6 @@
 function Header({ children }) {
   return (
-    <div className="font-semibold text-center text-3xl mt-9 mb-9">
+    <div className="mb-16 mt-16 text-center text-4xl font-semibold text-black">
       {children}
     </div>
   );

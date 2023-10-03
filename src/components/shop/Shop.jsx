@@ -26,7 +26,7 @@ function Shop() {
   }
 
   return (
-    <div className="flex justify-center">
+    <div className="flex  justify-center ">
       <div className="w-[90%] ">
         <Header>Piraten Shop</Header>
         <SortByTable onSortClick={handleClickSortBy} sortActive={sortBy} />
