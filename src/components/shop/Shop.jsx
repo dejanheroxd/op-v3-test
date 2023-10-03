@@ -29,7 +29,7 @@ function Shop() {
     <div className="flex justify-center">
       <div className="w-[90%] ">
         <Header>Piraten Shop</Header>
-        <SortByTable onSortClick={handleClickSortBy} />
+        <SortByTable onSortClick={handleClickSortBy} sortActive={sortBy} />
         <div className="mb-10 grid justify-center gap-y-12 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 ">
           {PRODUCTS.map((product) => (
             <Product

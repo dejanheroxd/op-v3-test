@@ -20,9 +20,9 @@ function NavBar() {
   }
 
   return (
-    <div className="flex h-20 items-center justify-end bg-yellow-300 pr-5">
+    <div className=" flex h-20 items-center justify-end bg-yellow-300 pr-5">
       <div className="flex w-full justify-center">
-        <img className="h-full min-w-[350px] pl-24" src={opImage} alt="" />
+        <img className=" h-full min-w-[350px] pl-24" src={opImage} alt="" />
       </div>
       <div className="mr-3 flex items-center gap-2 ">
         <Link

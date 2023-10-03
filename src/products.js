@@ -107,7 +107,7 @@ export const PRODUCTS = [
     price: 3800,
     productImage: product11,
     description:
-      "Kid, auch bekannt als Eustass Kid, ist ein aufstrebender Pirat. Sein rebellischer Geist und seine Teufelsfrucht (Punk Hazard) ermöglichen ihm die Kontrolle über Magnetismus. Kid träumt davon, der König der Piraten zu werden, und sein raues Wesen führt oft zu Konflikten mit anderen, einschließlich Ruffy. Seine markante Erscheinung und Entschlossenheit machen ihn zu einem aufregenden Charakter in der neuen Generation.",
+      "Kid, auch bekannt als Eustass Kid, ist ein aufstrebender Pirat. Sein rebellischer Geist und seine Teufelsfrucht (Punk Hazard) ermöglichen ihm die Kontrolle über Magnetismus. Kid träumt davon, der König der Piraten zu werden, und sein raues Wesen führt oft zu Konflikten mit anderen, einschließlich Ruffy. Seine markante Erscheinung und Entschlossenheit machen ihn zu einem aufregenden Charakter der neuen Generation.",
   },
   {
     id: 12,
@@ -147,7 +147,7 @@ export const PRODUCTS = [
     price: 3000,
     productImage: product16,
     description:
-      "Rob Lucci ist ein ehemaliger Agent der CP9 und er idt gefürchtet für seine Teufelsfrucht (Neko Neko no Mi, Modell: Leopard), die ihm übermenschliche Kräfte verleiht. Seine kalte und unnachgiebige Persönlichkeit macht ihn zu einem ernstzunehmenden Gegner die Luffy es Luffy schwer gemacht hat im kampf von Enies Lobby.",
+      "Rob Lucci ist ein ehemaliger Agent der CP9 und ist gefürchtet für seine Teufelsfrucht (Neko Neko no Mi, Modell: Leopard), die ihm übermenschliche Kräfte verleiht. Seine kalte und unnachgiebige Persönlichkeit machte ihn zu einem ernstzunehmenden Gegner der es Luffy schwer zu schaffen machte im kampf von Enies Lobby.",
   },
   {
     id: 17,
